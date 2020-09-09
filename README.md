@@ -1,0 +1,22 @@
+# HTML
+<form action="action_page.php" method="post">
+  <div class="imgdownload.png">
+  <div class="container" style="background-color:#ff0000">
+    <img src="img_download.png" alt="Richfield college" class="richfield">
+  </div>
+
+  <div class="container">
+
+    <label for="psw"><b>Student Number</b></label>
+    <input type="studentnumber" placeholder="Enter student number" name="psw" required>
+
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#0000ff">
+    <button type="button" class="cancelbtn">Cancel</button>
+  </div>
+</form>
