@@ -7,8 +7,8 @@
 
   <div class="container">
 
-    <label for="psw"><b>Student Number</b></label>
-    <input type="studentnumber" placeholder="Enter student number" name="psw" required>
+    <label for="stn"><b>Student Number</b></label>
+    <input type="studentnumber" placeholder="Enter student number" name="stn" required>
 
     <button type="submit">Login</button>
     <label>
